@@ -3,13 +3,13 @@
 Из курса [React + Redux - Профессиональная Разработка](https://www.udemy.com/course/pro-react-redux/)
 
 ## Установка Babel
-
+```
 npm install --save-dev @babel/core @babel/cli
-
+```
 Запуск babel:
-
+```
 npx babel src --out-dir build
-
+```
 
 Документация babel
 
@@ -19,14 +19,14 @@ https://babeljs.io/docs/en/
 ## Плагины Babel
 
 Установка плагина
-
+```
 npm install --save-dev @babel/plugin-transform-template-literals
-
+```
 
 Запуск babel с плагином
-
+```
 npx babel src --out-dir build --plugins @babel/plugin-transform-template-literals
-
+```
 
 ## Конфигурация Babel (.babelrc)
 
@@ -45,13 +45,13 @@ npx babel src --out-dir build --plugins @babel/plugin-transform-template-literal
 ## Babel Presets
 
 Preset - заранее сконфигурированный список плагинов
-
+```
 preset-env - отражает текущую стандартную версию языка JS
-
+```
 Устанавливается через npm 
-
+```
 npm install @babel/preset-env --save-dev
-
+```
 Конфигурационный файл babel:
 
 ```
@@ -162,9 +162,9 @@ core-js - библиотека полифиллов
 ## Работа с JSX
 
 @babel/preset-react - содержит трансформации, необходимые для работы с JSX кодом
-
+```
 npm install @babel/preset-react --save-dev 
-
+```
 Конфигурация .babelrc:
 ```
 "presets": [
